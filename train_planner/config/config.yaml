@@ -1,0 +1,69 @@
+# Railway Timetable Visualization Tool Configuration
+
+# Application settings
+app:
+  title: "Railway Timetable Visualization Tool"
+  description: "A modular, interactive tool for railway planners to create time-space diagrams for train schedules."
+  theme:
+    primary_color: "#1f77b4"
+    secondary_color: "#ff7f0e"
+    background_color: "#ffffff"
+    text_color: "#333333"
+
+# Visualization settings
+visualization:
+  default_time_range:
+    min_time: 360  # 6:00 AM in minutes
+    max_time: 1320  # 10:00 PM in minutes
+  time_on_x_axis: true
+  colors:
+    - "#1f77b4"  # Blue
+    - "#ff7f0e"  # Orange
+    - "#2ca02c"  # Green
+    - "#d62728"  # Red
+    - "#9467bd"  # Purple
+    - "#8c564b"  # Brown
+    - "#e377c2"  # Pink
+    - "#7f7f7f"  # Gray
+    - "#bcbd22"  # Olive
+    - "#17becf"  # Teal
+
+# Analysis settings
+analysis:
+  min_separation: 2  # Minimum separation in minutes for conflict detection
+  track_utilization:
+    time_bins: 24    # Number of time bins (hours) for track utilization analysis
+
+# Default stations
+default_stations:
+  - name: "Terminal"
+    position: 0.0
+  - name: "Central"
+    position: 0.14
+  - name: "Downtown"
+    position: 0.28
+  - name: "Uptown"
+    position: 0.42
+  - name: "Riverside"
+    position: 0.57
+  - name: "Hillside"
+    position: 0.71
+  - name: "Suburb"
+    position: 0.85
+  - name: "Airport"
+    position: 1.0
+
+# Template settings
+templates:
+  express:
+    speed: 2       # Minutes between stations
+    dwell_time: 1  # Minutes at each station
+  local:
+    speed: 3
+    dwell_time: 1
+  uptown:
+    speed: 3
+    dwell_time: 1
+  downtown:
+    speed: 3
+    dwell_time: 1

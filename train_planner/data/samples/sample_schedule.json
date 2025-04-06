@@ -1,0 +1,75 @@
+{
+  "stations": [
+    "Terminal A",
+    "Downtown",
+    "Central",
+    "Midtown",
+    "Uptown",
+    "Suburb",
+    "Terminal B"
+  ],
+  "trains": [
+    {
+      "name": "Express 101",
+      "color": "#ff5722",
+      "schedule": [
+        {
+          "station": "Terminal A",
+          "arrival": "08:00",
+          "departure": "08:02"
+        },
+        {
+          "station": "Central",
+          "arrival": "08:10",
+          "departure": "08:12"
+        },
+        {
+          "station": "Terminal B",
+          "arrival": "08:20",
+          "departure": "08:22"
+        }
+      ]
+    },
+    {
+      "name": "Local 202",
+      "color": "#4caf50",
+      "schedule": [
+        {
+          "station": "Terminal A",
+          "arrival": "08:15",
+          "departure": "08:16"
+        },
+        {
+          "station": "Downtown",
+          "arrival": "08:22",
+          "departure": "08:23"
+        },
+        {
+          "station": "Central",
+          "arrival": "08:29",
+          "departure": "08:30"
+        },
+        {
+          "station": "Midtown",
+          "arrival": "08:36",
+          "departure": "08:37"
+        },
+        {
+          "station": "Uptown",
+          "arrival": "08:43",
+          "departure": "08:44"
+        },
+        {
+          "station": "Suburb",
+          "arrival": "08:50",
+          "departure": "08:51"
+        },
+        {
+          "station": "Terminal B",
+          "arrival": "08:57",
+          "departure": "08:58"
+        }
+      ]
+    }
+  ]
+}
